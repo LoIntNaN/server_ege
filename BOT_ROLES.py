@@ -13,6 +13,7 @@ async def ping(ctx):
      await ctx.author.remove_roles(role, reason=None)
 
 token = os.environ.get("BOT_TOKEN")
+client.run(str(token))
 
 
 
